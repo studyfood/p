@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Food</title>
+  <style>
+    :root {
+      --primary: #1976d2;
+      --dark: #0d47a1;
+      --light: #f5f5f5;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--light);
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 15px 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      color: white;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .post {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .post h2 a {
+      text-decoration: none;
+      color: var(--primary);
+    }
+
+    .post h2 a:hover {
+      text-decoration: underline;
+    }
+
+    .post small {
+      color: gray;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">STUDY FOOD</div>
+      <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Study Food</p>
+  </footer>
+
+</body>
+</html>
