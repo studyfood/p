@@ -4,11 +4,8 @@ authors:
 - family-names: "Hidayat"
   given-names: "Wildan"
   orcid: "https://orcid.org/0009-0004-4172-0386"
-- family-names: "Hidayat"
-  given-names: "Wildan"
-  orcid: "https://orcid.org/0009-0004-4172-0386"
 title: "studyfood.github.io"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
+# doi: 10.5281/zenodo.1234
 date-released: 2025-07-21
 url: "https://github.com/studyfood/studyfood.github.io"
