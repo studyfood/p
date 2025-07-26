@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://studyfood.github.io/sitemap.xml
