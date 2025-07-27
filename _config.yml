@@ -3,9 +3,9 @@ title:               Study Food
 tagline:             'Study Food'
 description:         'Study Food adalah situs web resep masakan Indonesia yang menyajikan resep sederhana dan mudah dipraktikkan. Dibuat dengan HTML, CSS, dan JavaScript sebagai proyek web statis, serta dihosting menggunakan GitHub Pages.'
 url:                 https://studyfood.github.io
-baseurl:             'https://studyfood.github.io'
+# baseurl:             'https://studyfood.github.io'
 paginate:            5
-permalink:           pretty
+# permalink:           pretty
 
 # About/contact
 author:
