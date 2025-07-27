@@ -5,7 +5,7 @@ description:         'Study Food adalah situs web resep masakan Indonesia yang m
 url:                 https://studyfood.github.io
 baseurl:             'https://studyfood.github.io'
 paginate:            5
-# permalink:           pretty
+permalink:           pretty
 
 # About/contact
 author:
