@@ -1,1 +1,0 @@
-- [Postingan 1](README.md)
